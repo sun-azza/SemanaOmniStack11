@@ -1,0 +1,29 @@
+.logon-container {
+    width: 100%; /*tamanho*/
+    max-width: 1120px; /*tamanho máximo*/
+    height: 100vh; /*ocupe a altura toda do corpo para centralizar*/
+    margin: 0 auto; /*fique sempre centralizado*/
+
+    display: flex;/*alinhamento, itens entram no formato flex, por padrão todos sos itens vão ficar um ao lado do outro*/
+    align-items: center; /*alinhar verticalmente os itens*/
+    justify-content: space-between; /*alinahr os itens horizontalmento no centro*/
+}
+
+.logon-container section.form {
+    width: 100%;
+    max-width: 350px; /*ajuda na responsividade dps*/
+    margin-right: 30px;
+}
+
+.logon-container section.form form {
+    margin-top: 100px;
+}
+
+.logon-container section.form form h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+
+
+
